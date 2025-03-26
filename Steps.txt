@@ -1,0 +1,56 @@
+Steps to Run the Quiz App - React Native
+
+1. Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+Node.js (Latest LTS version recommended)
+
+React Native CLI
+
+Android Studio (for Android) or Xcode (for iOS)
+
+2. Clone the Repository
+
+git clone https://github.com/shreya276/Quiz-App-Game-using-React-Native
+cd Quiz-App-Game-using-React-Native
+
+3. Install Dependencies
+
+npm install
+
+4. Install Pods for iOS (If Running on macOS)
+
+cd ios
+pod install
+cd ..
+
+5. Running the Project
+
+For Android:
+
+npx react-native run-android
+
+For iOS:
+
+npx react-native run-ios
+
+If Metro Bundler is Not Started Automatically:
+
+npx react-native start
+
+6. Additional Notes
+
+Ensure that an emulator is running or a physical device is connected before executing the run commands.
+
+If you encounter permission errors, try running the commands with sudo (macOS/Linux).
+
+7. Troubleshooting
+
+If you face any issues, consider:
+
+Running npx react-native doctor to check for any missing dependencies.
+
+Checking the logs for errors using:
+npx react-native log-android  # For Android
+npx react-native log-ios      # For iOS
